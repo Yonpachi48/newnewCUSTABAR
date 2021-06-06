@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1A1296F53C86C50CD06DD9 /* Pods_CUSTABAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFE66F60CACE7E3ED137736 /* Pods_CUSTABAR.framework */; };
+		E93EF78F2659273700FB9F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93EF78E2659273700FB9F5A /* AppDelegate.swift */; };
+		E93EF7912659273700FB9F5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93EF7902659273700FB9F5A /* SceneDelegate.swift */; };
+		E93EF7932659273700FB9F5A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93EF7922659273700FB9F5A /* ListViewController.swift */; };
+		E93EF7962659273700FB9F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93EF7942659273700FB9F5A /* Main.storyboard */; };
+		E93EF79B2659273B00FB9F5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93EF7992659273B00FB9F5A /* LaunchScreen.storyboard */; };
+		E97ACD4D2663EEF100C04A75 /* EurekaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97ACD4C2663EEF100C04A75 /* EurekaViewController.swift */; };
+		E9966D87266A3A5500D7C3F5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9966D86266A3A5500D7C3F5 /* Item.swift */; };
+		E99D7C3326692F78006E33C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93EF7972659273B00FB9F5A /* Assets.xcassets */; };
+		E9A48E5D2666999E008879A4 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A48E5C2666999E008879A4 /* OrderViewController.swift */; };
+		E9ACE9B9265E955000C4587E /* VAL-UltraBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ACE9B8265E955000C4587E /* VAL-UltraBlack.ttf */; };
+		E9ACE9BD265FCF6100C4587E /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ACE9BC265FCF6100C4587E /* ProductsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14041DD980356F67D36ECC4F /* Pods-CUSTABAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUSTABAR.debug.xcconfig"; path = "Target Support Files/Pods-CUSTABAR/Pods-CUSTABAR.debug.xcconfig"; sourceTree = "<group>"; };
+		5FFE66F60CACE7E3ED137736 /* Pods_CUSTABAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CUSTABAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A84BBA502B28DC388BC33D /* Pods-CUSTABAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUSTABAR.release.xcconfig"; path = "Target Support Files/Pods-CUSTABAR/Pods-CUSTABAR.release.xcconfig"; sourceTree = "<group>"; };
+		E93EF78B2659273700FB9F5A /* CUSTABAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUSTABAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93EF78E2659273700FB9F5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E93EF7902659273700FB9F5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E93EF7922659273700FB9F5A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		E93EF7952659273700FB9F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E93EF7972659273B00FB9F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E93EF79A2659273B00FB9F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E93EF79C2659273B00FB9F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97ACD4C2663EEF100C04A75 /* EurekaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaViewController.swift; sourceTree = "<group>"; };
+		E9966D86266A3A5500D7C3F5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E9A48E5C2666999E008879A4 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		E9ACE9B8265E955000C4587E /* VAL-UltraBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VAL-UltraBlack.ttf"; sourceTree = "<group>"; };
+		E9ACE9BC265FCF6100C4587E /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E93EF7882659273700FB9F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1A1296F53C86C50CD06DD9 /* Pods_CUSTABAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		472178B6FBB90E5722E69D6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14041DD980356F67D36ECC4F /* Pods-CUSTABAR.debug.xcconfig */,
+				A4A84BBA502B28DC388BC33D /* Pods-CUSTABAR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		644BE875520DE37377CAB673 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FFE66F60CACE7E3ED137736 /* Pods_CUSTABAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E93EF7822659273700FB9F5A = {
+			isa = PBXGroup;
+			children = (
+				E93EF78D2659273700FB9F5A /* CUSTABAR */,
+				E93EF78C2659273700FB9F5A /* Products */,
+				472178B6FBB90E5722E69D6D /* Pods */,
+				644BE875520DE37377CAB673 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E93EF78C2659273700FB9F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93EF78B2659273700FB9F5A /* CUSTABAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E93EF78D2659273700FB9F5A /* CUSTABAR */ = {
+			isa = PBXGroup;
+			children = (
+				E93EF78E2659273700FB9F5A /* AppDelegate.swift */,
+				E93EF7902659273700FB9F5A /* SceneDelegate.swift */,
+				E93EF7922659273700FB9F5A /* ListViewController.swift */,
+				E9ACE9BC265FCF6100C4587E /* ProductsViewController.swift */,
+				E97ACD4C2663EEF100C04A75 /* EurekaViewController.swift */,
+				E9A48E5C2666999E008879A4 /* OrderViewController.swift */,
+				E9966D86266A3A5500D7C3F5 /* Item.swift */,
+				E93EF7942659273700FB9F5A /* Main.storyboard */,
+				E93EF7972659273B00FB9F5A /* Assets.xcassets */,
+				E9ACE9B8265E955000C4587E /* VAL-UltraBlack.ttf */,
+				E93EF7992659273B00FB9F5A /* LaunchScreen.storyboard */,
+				E93EF79C2659273B00FB9F5A /* Info.plist */,
+			);
+			path = CUSTABAR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E93EF78A2659273700FB9F5A /* CUSTABAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93EF79F2659273B00FB9F5A /* Build configuration list for PBXNativeTarget "CUSTABAR" */;
+			buildPhases = (
+				2358A711933E0C94CF5C19D9 /* [CP] Check Pods Manifest.lock */,
+				E93EF7872659273700FB9F5A /* Sources */,
+				E93EF7882659273700FB9F5A /* Frameworks */,
+				E93EF7892659273700FB9F5A /* Resources */,
+				E8A423370B67F722D75D9262 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CUSTABAR;
+			productName = CUSTABAR;
+			productReference = E93EF78B2659273700FB9F5A /* CUSTABAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E93EF7832659273700FB9F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E93EF78A2659273700FB9F5A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = E93EF7862659273700FB9F5A /* Build configuration list for PBXProject "CUSTABAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E93EF7822659273700FB9F5A;
+			productRefGroup = E93EF78C2659273700FB9F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E93EF78A2659273700FB9F5A /* CUSTABAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E93EF7892659273700FB9F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93EF79B2659273B00FB9F5A /* LaunchScreen.storyboard in Resources */,
+				E93EF7962659273700FB9F5A /* Main.storyboard in Resources */,
+				E99D7C3326692F78006E33C2 /* Assets.xcassets in Resources */,
+				E9ACE9B9265E955000C4587E /* VAL-UltraBlack.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2358A711933E0C94CF5C19D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CUSTABAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A423370B67F722D75D9262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CUSTABAR/Pods-CUSTABAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CUSTABAR/Pods-CUSTABAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CUSTABAR/Pods-CUSTABAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E93EF7872659273700FB9F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93EF7932659273700FB9F5A /* ListViewController.swift in Sources */,
+				E93EF78F2659273700FB9F5A /* AppDelegate.swift in Sources */,
+				E9A48E5D2666999E008879A4 /* OrderViewController.swift in Sources */,
+				E97ACD4D2663EEF100C04A75 /* EurekaViewController.swift in Sources */,
+				E9966D87266A3A5500D7C3F5 /* Item.swift in Sources */,
+				E93EF7912659273700FB9F5A /* SceneDelegate.swift in Sources */,
+				E9ACE9BD265FCF6100C4587E /* ProductsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E93EF7942659273700FB9F5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93EF7952659273700FB9F5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E93EF7992659273B00FB9F5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93EF79A2659273B00FB9F5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E93EF79D2659273B00FB9F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E93EF79E2659273B00FB9F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E93EF7A02659273B00FB9F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14041DD980356F67D36ECC4F /* Pods-CUSTABAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
+				INFOPLIST_FILE = CUSTABAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.com.lifeistech.kasutaba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "L13-Takahashi-Develop";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E93EF7A12659273B00FB9F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A84BBA502B28DC388BC33D /* Pods-CUSTABAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
+				INFOPLIST_FILE = CUSTABAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.com.lifeistech.kasutaba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "L13-Takahashi-Distribution";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E93EF7862659273700FB9F5A /* Build configuration list for PBXProject "CUSTABAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93EF79D2659273B00FB9F5A /* Debug */,
+				E93EF79E2659273B00FB9F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93EF79F2659273B00FB9F5A /* Build configuration list for PBXNativeTarget "CUSTABAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93EF7A02659273B00FB9F5A /* Debug */,
+				E93EF7A12659273B00FB9F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E93EF7832659273700FB9F5A /* Project object */;
+}

@@ -1,0 +1,48 @@
+PODS:
+  - Cosmos (23.0.0)
+  - DynamicBlurView (4.1.0)
+  - Eureka (5.2.1)
+  - ImageRow (4.0.0):
+    - Eureka (~> 5.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - Realm (10.7.6):
+    - Realm/Headers (= 10.7.6)
+  - Realm/Headers (10.7.6)
+  - RealmSwift (10.7.6):
+    - Realm (= 10.7.6)
+  - ViewRow (0.8):
+    - Eureka (>= 5.0.0)
+
+DEPENDENCIES:
+  - Cosmos
+  - Eureka (~> 5.2.1)
+  - ImageRow (~> 4.0)
+  - PopupDialog
+  - RealmSwift
+  - ViewRow
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Cosmos
+    - DynamicBlurView
+    - Eureka
+    - ImageRow
+    - PopupDialog
+    - Realm
+    - RealmSwift
+    - ViewRow
+
+SPEC CHECKSUMS:
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  Eureka: c883105488e05bc65539f583246ecf9657cabbfe
+  ImageRow: e65b2e1a33f89062bf2a553a2aad61d975eb7428
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  Realm: ed860452717c8db8f4bf832b6807f7f2ce708839
+  RealmSwift: e31c4ddbcc42ac879313d656b86f9ca539f6f4f4
+  ViewRow: 8da541e9c019f3be63f4e28f311a62cac2045ecf
+
+PODFILE CHECKSUM: 2cfda75c446d9ac9aa0faee97c34a2b6d5987d06
+
+COCOAPODS: 1.10.1
